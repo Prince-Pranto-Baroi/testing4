@@ -1,0 +1,18 @@
+{
+  "name": "aqualuxe-store",
+  "version": "2.0.0",
+  "description": "AquaLuxe - premium aquarium store with customer website and separate admin panel",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test:nlu": "node src/ai/nlu/run-tests.js",
+    "demo-data": "node scripts/demo.js",
+    "clear-demo": "node scripts/demo.js clear"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "multer": "^2.0.2",
+    "mysql2": "^3.15.3"
+  }
+}

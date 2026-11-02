@@ -1,0 +1,13 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Admin Login – AquaLuxe</title><meta name="robots" content="noindex">
+<link rel="stylesheet" href="/admin/css/admin.css"></head><body>
+<div class="login"><form class="box" id="f"><h1>🌿 AquaLuxe Admin</h1><p>Sign in to manage your store.</p><div class="err" id="err"></div>
+<label class="l">Username</label><input class="inp" id="u" autocomplete="username" required autofocus><div style="height:14px"></div>
+<label class="l">Password</label><input class="inp" id="p" type="password" autocomplete="current-password" required>
+<button class="btn" id="b">Sign in</button><p style="margin:18px 0 0;font-size:.85rem;text-align:center"><a href="/">← Back to website</a></p></form></div>
+<script>
+if(localStorage.getItem('aq_admin'))location.replace('/admin/');
+document.getElementById('f').onsubmit=async e=>{e.preventDefault();const er=document.getElementById('err'),b=document.getElementById('b');er.style.display='none';b.disabled=true;
+ try{const r=await fetch('/api/admin/login',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({username:u.value.trim(),password:p.value})});const d=await r.json();
+  if(!r.ok)throw new Error(d.error||'Login failed');localStorage.setItem('aq_admin',d.token);localStorage.setItem('aq_admin_name',d.name);location.replace('/admin/');}
+ catch(x){er.textContent=x.message;er.style.display='block';b.disabled=false;}};
+</script></body></html>

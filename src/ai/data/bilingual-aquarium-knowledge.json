@@ -1,0 +1,576 @@
+{
+  "database_name": "Bilingual Aquarium Knowledge Base",
+  "version": "1.0",
+  "created": "2026-10-27",
+  "languages": [
+    "bn",
+    "en"
+  ],
+  "purpose": "Retrieval/knowledge-base seed data for an aquarium care AI. This is a starter database, not a substitute for species-specific research or aquatic veterinary advice.",
+  "usage_notes": [
+    "Each record contains parallel Bangla and English questions and answers.",
+    "Use semantic search/embeddings over title, keywords, questions and answers.",
+    "Keep source_urls with each record so answers can be traced to references.",
+    "Do not treat symptom matching as definitive diagnosis. Confirm water quality and species-specific requirements.",
+    "For medical treatment, follow product labels and consult an aquatic veterinarian or qualified fish-health professional when severe or uncertain."
+  ],
+  "records": [
+    {
+      "id": "plants_basics",
+      "category": "plants",
+      "title_en": "Aquatic plant basics",
+      "title_bn": "অ্যাকুরিয়াম গাছের মৌলিক যত্ন",
+      "keywords": [
+        "aquatic plants",
+        "plant care",
+        "গাছের যত্ন",
+        "aquarium plants"
+      ],
+      "question_en": "What do aquarium plants need to grow well?",
+      "question_bn": "অ্যাকুরিয়ামের গাছ ভালোভাবে বেড়ে উঠতে কী কী দরকার?",
+      "answer_en": "Most aquatic plants need suitable light, nutrients, stable water conditions and water flow. Root-feeding plants benefit from nutrient-rich substrate or root tabs; plants that feed mainly from the water benefit from liquid fertilizer. Requirements vary by species. Remove melting or dead leaves and avoid changing light, fertilizer and CO2 dramatically at the same time.",
+      "answer_bn": "বেশিরভাগ জলজ গাছের জন্য উপযুক্ত আলো, পুষ্টি, স্থিতিশীল পানির অবস্থা এবং পানির চলাচল দরকার। শিকড় দিয়ে বেশি খাবার নেয় এমন গাছের জন্য পুষ্টিসমৃদ্ধ সাবস্ট্রেট বা root tab উপকারী; পানির ভেতর থেকে পুষ্টি নেয় এমন গাছের জন্য liquid fertilizer কাজে লাগে। প্রজাতি অনুযায়ী চাহিদা আলাদা। গলে যাওয়া বা মরা পাতা সরিয়ে ফেলুন এবং একসঙ্গে আলো, সার ও CO₂-তে বড় পরিবর্তন করবেন না।",
+      "source_urls": [
+        "https://www.aqueon.com/resources/care-guides/aquatic-plant-basics",
+        "https://www.aqueon.com/articles/maintain-planted-aquarium"
+      ]
+    },
+    {
+      "id": "plant_light",
+      "category": "lighting",
+      "title_en": "Aquarium plant lighting duration",
+      "title_bn": "গাছের জন্য লাইট কতক্ষণ জ্বালাতে হবে",
+      "keywords": [
+        "light hours",
+        "photoperiod",
+        "LED",
+        "লাইট",
+        "আলো"
+      ],
+      "question_en": "How many hours should aquarium lights stay on?",
+      "question_bn": "অ্যাকুরিয়ামের লাইট দিনে কত ঘণ্টা জ্বালিয়ে রাখা উচিত?",
+      "answer_en": "A practical starting point for many planted freshwater aquariums is 6–8 hours daily, using a timer. Adjust based on plant growth, light strength, CO2 and algae. If algae increases, reduce the photoperiod or intensity and check nutrients and maintenance. Avoid direct sunlight. There is no single duration that fits every tank.",
+      "answer_bn": "অনেক freshwater planted aquarium-এর জন্য দিনে ৬–৮ ঘণ্টা লাইট দিয়ে শুরু করা যায়; টাইমার ব্যবহার করা ভালো। গাছের বৃদ্ধি, লাইটের শক্তি, CO₂ এবং শৈবাল দেখে সময় ঠিক করুন। শৈবাল বাড়লে লাইটের সময় বা তীব্রতা কমান এবং পুষ্টি ও পরিচর্যা পরীক্ষা করুন। সরাসরি সূর্যের আলো এড়িয়ে চলুন। সব ট্যাংকের জন্য একই সময় সঠিক নয়।",
+      "source_urls": [
+        "https://www.aqueon.com/resources/care-guides/aquatic-plant-basics",
+        "https://www.aqueon.com/articles/maintain-planted-aquarium"
+      ]
+    },
+    {
+      "id": "plant_nutrients",
+      "category": "fertilizer",
+      "title_en": "Aquarium plant fertilizers",
+      "title_bn": "অ্যাকুরিয়াম গাছের সার",
+      "keywords": [
+        "liquid fertilizer",
+        "root tabs",
+        "NPK",
+        "iron",
+        "potassium",
+        "ফার্টিলাইজার",
+        "সার"
+      ],
+      "question_en": "Which fertilizer should I use for aquarium plants?",
+      "question_bn": "অ্যাকুরিয়ামের গাছের জন্য কোন ফার্টিলাইজার ব্যবহার করব?",
+      "answer_en": "Use aquarium-specific fertilizer and follow its label. Liquid all-in-one fertilizers supply water-column nutrients; root tabs help rooted plants such as many Cryptocoryne and sword plants. Nitrogen, phosphorus, potassium and trace elements may be needed, but dose depends on plant mass, fish load, water changes and light. Do not assume yellow leaves always mean iron deficiency; check overall conditions and change one variable at a time. Avoid garden fertilizers unless specifically confirmed aquarium-safe.",
+      "answer_bn": "অ্যাকুরিয়ামের জন্য তৈরি সার ব্যবহার করুন এবং বোতলের নির্দেশনা মেনে চলুন। Liquid all-in-one fertilizer পানির মধ্যে থাকা পুষ্টি দেয়; root tab অনেক Cryptocoryne ও sword plant-এর মতো শিকড়নির্ভর গাছে সাহায্য করে। নাইট্রোজেন, ফসফরাস, পটাশিয়াম ও trace element লাগতে পারে, তবে ডোজ নির্ভর করে গাছের পরিমাণ, মাছের সংখ্যা, পানি পরিবর্তন ও আলোর ওপর। পাতা হলুদ হলেই iron-এর ঘাটতি ধরে নেবেন না; সামগ্রিক অবস্থা দেখুন এবং একবারে একটি বিষয় বদলান। অ্যাকুরিয়ামের জন্য নিরাপদ বলে নিশ্চিত না হলে বাগানের সার ব্যবহার করবেন না।",
+      "source_urls": [
+        "https://www.aqueon.com/resources/care-guides/aquatic-plant-basics"
+      ]
+    },
+    {
+      "id": "plant_placement",
+      "category": "plants",
+      "title_en": "Plant placement zones",
+      "title_bn": "অ্যাকুরিয়ামে গাছ কোথায় বসাবেন",
+      "keywords": [
+        "foreground",
+        "midground",
+        "background",
+        "plant placement",
+        "গাছ কোথায় বসাব"
+      ],
+      "question_en": "Which plants should go in the foreground, midground and background?",
+      "question_bn": "অ্যাকুরিয়ামের সামনে, মাঝখানে ও পেছনে কোন গাছ বসানো ভালো?",
+      "answer_en": "Use low, slow-growing plants such as many carpeting species in the foreground only if the light and CO2 suit them. Medium-height plants such as Cryptocoryne and Anubias often fit the midground. Tall plants such as Vallisneria and many stem plants suit the background. Attach rhizome plants such as Anubias and Java fern to rock or wood; do not bury the rhizome. Keep tall plants from shading shorter plants.",
+      "answer_bn": "সামনের অংশে কম উচ্চতার carpeting plant বসানো যায়, তবে তাদের জন্য যথেষ্ট আলো ও প্রয়োজনমতো CO₂ থাকতে হবে। মাঝের অংশে Cryptocoryne ও Anubias-এর মতো মাঝারি উচ্চতার গাছ ভালো মানায়। পেছনে Vallisneria ও অনেক stem plant রাখা যায়। Anubias ও Java fern-এর মতো rhizome গাছ পাথর বা কাঠে বেঁধে দিন; rhizome মাটির নিচে পুঁতবেন না। লম্বা গাছ যেন ছোট গাছের আলো আটকে না দেয়।",
+      "source_urls": [
+        "https://www.aqueon.com/resources/care-guides/aquatic-plant-basics"
+      ]
+    },
+    {
+      "id": "plant_deficiency",
+      "category": "plant_health",
+      "title_en": "Diagnosing plant problems",
+      "title_bn": "গাছের সমস্যা ও লক্ষণ বোঝা",
+      "keywords": [
+        "yellow leaves",
+        "melting",
+        "holes",
+        "brown leaves",
+        "plant disease",
+        "পাতা হলুদ",
+        "পাতা গলে"
+      ],
+      "question_en": "How can I tell what is wrong with an aquarium plant?",
+      "question_bn": "অ্যাকুরিয়ামের গাছের কী সমস্যা হয়েছে তা কীভাবে বুঝব?",
+      "answer_en": "Yellowing, holes, melting and slow growth are symptoms, not a diagnosis by themselves. Newly planted plants may lose old emersed-grown leaves while adapting underwater. Check light, plant species, substrate, fertilizer, water stability and whether fish or snails are eating the leaves. New growth is often more useful than old damaged leaves for judging recovery. Remove decaying leaves and avoid adding several supplements without evidence.",
+      "answer_bn": "পাতা হলুদ হওয়া, ছিদ্র, গলে যাওয়া বা বৃদ্ধি ধীর হওয়া—এগুলো লক্ষণ, একা এগুলো দিয়ে নির্দিষ্ট ঘাটতি নিশ্চিত করা যায় না। নতুন লাগানো গাছ পানির ওপরে জন্মানো পুরোনো পাতা হারাতে পারে, কারণ সে পানির নিচে মানিয়ে নিচ্ছে। আলো, গাছের প্রজাতি, সাবস্ট্রেট, সার, পানির স্থিতিশীলতা এবং মাছ বা শামুক পাতা খাচ্ছে কি না দেখুন। পুরোনো নষ্ট পাতার চেয়ে নতুন পাতা দিয়ে গাছ সুস্থ হচ্ছে কি না বোঝা ভালো। পচা পাতা সরান এবং কারণ না জেনে একসঙ্গে অনেক supplement দেবেন না।",
+      "source_urls": [
+        "https://www.aqueon.com/resources/care-guides/aquatic-plant-basics",
+        "https://www.aqueon.com/articles/maintain-planted-aquarium"
+      ]
+    },
+    {
+      "id": "fish_species_compatibility",
+      "category": "fish",
+      "title_en": "Choosing compatible fish",
+      "title_bn": "একসঙ্গে কোন মাছ রাখা যায়",
+      "keywords": [
+        "compatibility",
+        "community tank",
+        "aggression",
+        "মাছের সামঞ্জস্য"
+      ],
+      "question_en": "Can these fish live together?",
+      "question_bn": "এই মাছগুলো কি একই অ্যাকুরিয়ামে রাখা যাবে?",
+      "answer_en": "Check adult size, temperature, pH and hardness needs, temperament, swimming level, group-size needs, diet and whether one fish can swallow another. Do not rely only on the fish's size at the shop. Research each species and provide enough space and hiding places. Quarantine new fish in a separate, cycled tank when possible.",
+      "answer_bn": "মাছের পূর্ণবয়স্ক আকার, তাপমাত্রা, pH ও hardness-এর চাহিদা, স্বভাব, সাঁতারের স্তর, দলবদ্ধ থাকার প্রয়োজন, খাবার এবং বড় মাছ ছোট মাছ গিলে ফেলতে পারে কি না—সব যাচাই করুন। দোকানে মাছের বর্তমান ছোট আকার দেখে সিদ্ধান্ত নেবেন না। প্রতিটি প্রজাতি সম্পর্কে জানুন এবং পর্যাপ্ত জায়গা ও লুকানোর স্থান দিন। সম্ভব হলে নতুন মাছকে আলাদা, আগে থেকেই cycled ট্যাংকে quarantine করুন।",
+      "source_urls": [
+        "https://www.aqueon.com/ultimate-fishkeeping-guide",
+        "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/management-of-aquarium-fish"
+      ]
+    },
+    {
+      "id": "stocking",
+      "category": "stocking",
+      "title_en": "How many fish can a tank hold?",
+      "title_bn": "ট্যাংকে কতটি মাছ রাখা যাবে",
+      "keywords": [
+        "stocking level",
+        "tank size",
+        "liters",
+        "fish count",
+        "মাছের সংখ্যা",
+        "ট্যাংকের সাইজ"
+      ],
+      "question_en": "How many fish can I keep in my aquarium?",
+      "question_bn": "আমার অ্যাকুরিয়ামে কয়টি মাছ রাখা ভালো?",
+      "answer_en": "There is no reliable universal rule such as one fish per litre or one inch per gallon. Stocking depends on adult fish size, body shape, activity, territorial behavior, schooling needs, filtration, oxygen, maintenance and water quality. Calculate the actual water volume, research each species' minimum tank and group size, and stock gradually. Test ammonia and nitrite; both should remain at 0 mg/L in a stable aquarium. If they rise, reduce feeding, check the filter and perform a suitable partial water change with conditioned, temperature-matched water.",
+      "answer_bn": "প্রতি লিটারে একটি মাছ বা প্রতি গ্যালনে এক ইঞ্চি মাছ—এ ধরনের নিয়ম সব মাছের জন্য নির্ভরযোগ্য নয়। মাছের পূর্ণবয়স্ক আকার, শরীরের গঠন, চলাফেরা, এলাকা রক্ষার স্বভাব, দলবদ্ধ থাকার প্রয়োজন, ফিল্টার, অক্সিজেন, পরিচর্যা ও পানির মানের ওপর সংখ্যা নির্ভর করে। প্রকৃত পানির পরিমাণ হিসাব করুন, প্রতিটি প্রজাতির ন্যূনতম ট্যাংক ও দলগত সংখ্যার চাহিদা জানুন এবং ধীরে ধীরে মাছ যোগ করুন। স্থিতিশীল ট্যাংকে ammonia ও nitrite ০ mg/L থাকা উচিত। এগুলো বাড়লে খাবার কমান, ফিল্টার পরীক্ষা করুন এবং conditioner দেওয়া ও তাপমাত্রা মিলানো পানি দিয়ে উপযুক্ত আংশিক water change করুন।",
+      "source_urls": [
+        "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/management-of-aquarium-fish",
+        "https://www.aqueon.com/ultimate-fishkeeping-guide"
+      ]
+    },
+    {
+      "id": "water_parameters",
+      "category": "water_quality",
+      "title_en": "pH and temperature",
+      "title_bn": "পানির pH ও তাপমাত্রা",
+      "keywords": [
+        "pH",
+        "temperature",
+        "water parameters",
+        "তাপমাত্রা",
+        "পানির pH"
+      ],
+      "question_en": "What pH and temperature should aquarium water have?",
+      "question_bn": "অ্যাকুরিয়ামের পানির pH ও তাপমাত্রা কত হওয়া উচিত?",
+      "answer_en": "There is no single ideal pH or temperature for all fish. Many common tropical freshwater community fish are kept around 24–27°C, but species-specific needs take priority; coldwater fish and some specialist species need different conditions. Many planted aquariums do well near pH 6.5–7.8, but fish species requirements vary. Test with a reliable kit, avoid sudden changes, and do not use pH-up or pH-down chemicals to chase a number without understanding KH and the species' needs.",
+      "answer_bn": "সব মাছের জন্য একই pH বা তাপমাত্রা আদর্শ নয়। অনেক সাধারণ tropical freshwater community fish প্রায় ২৪–২৭°C তাপমাত্রায় রাখা হয়, তবে প্রজাতির নিজস্ব চাহিদাই বেশি গুরুত্বপূর্ণ; coldwater ও কিছু বিশেষ প্রজাতির জন্য আলাদা পরিবেশ লাগে। অনেক planted aquarium-এ pH ৬.৫–৭.৮-এর কাছাকাছি ভালো চলে, কিন্তু মাছভেদে চাহিদা আলাদা। নির্ভরযোগ্য test kit দিয়ে পরীক্ষা করুন, হঠাৎ পরিবর্তন এড়িয়ে চলুন এবং KH ও মাছের চাহিদা না বুঝে শুধু সংখ্যা ঠিক করতে pH-up বা pH-down ব্যবহার করবেন না।",
+      "source_urls": [
+        "https://www.aqueon.com/resources/care-guides/aquatic-plant-basics",
+        "https://www.aqueon.com/resources/faqs",
+        "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/management-of-aquarium-fish"
+      ]
+    },
+    {
+      "id": "nitrogen_cycle",
+      "category": "water_quality",
+      "title_en": "Aquarium nitrogen cycle",
+      "title_bn": "অ্যাকুরিয়ামের nitrogen cycle",
+      "keywords": [
+        "cycling",
+        "ammonia",
+        "nitrite",
+        "nitrate",
+        "নাইট্রোজেন সাইকেল"
+      ],
+      "question_en": "What is aquarium cycling and how do I know it is complete?",
+      "question_bn": "অ্যাকুরিয়াম cycling কী এবং কখন বুঝব শেষ হয়েছে?",
+      "answer_en": "Beneficial microbes in the filter and surfaces convert toxic ammonia to nitrite and then to nitrate. A tank is not safely cycled just because it has run for a few days or the water looks clear. Use a test kit and a fishless cycling method where possible; confirm ammonia and nitrite return to 0 mg/L after an appropriate ammonia source is processed. Add fish gradually and keep monitoring. Never wash biological filter media under untreated tap water or replace all media at once.",
+      "answer_bn": "ফিল্টার ও বিভিন্ন পৃষ্ঠে থাকা উপকারী জীবাণু বিষাক্ত ammonia-কে nitrite এবং পরে nitrate-এ রূপান্তর করে। কয়েক দিন চালানো হয়েছে বা পানি পরিষ্কার দেখাচ্ছে—এতেই ট্যাংক নিরাপদভাবে cycled হয়েছে বোঝায় না। test kit ব্যবহার করুন এবং সম্ভব হলে fishless cycling করুন; উপযুক্ত ammonia source প্রক্রিয়াজাত হওয়ার পর ammonia ও nitrite ০ mg/L-এ নেমেছে কি না নিশ্চিত করুন। ধীরে ধীরে মাছ যোগ করুন ও পরীক্ষা চালিয়ে যান। biological filter media অপরিশোধিত কলের পানিতে ধুবেন না এবং একসঙ্গে সব media বদলাবেন না।",
+      "source_urls": [
+        "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/management-of-aquarium-fish",
+        "https://www.aqueon.com/resources/faqs"
+      ]
+    },
+    {
+      "id": "chlorine_conditioner",
+      "category": "water_treatment",
+      "title_en": "Chlorine and chloramine in tap water",
+      "title_bn": "কলের পানির ক্লোরিন ও ক্লোরামিন",
+      "keywords": [
+        "chlorine",
+        "chloramine",
+        "dechlorinator",
+        "water conditioner",
+        "ক্লোরিন",
+        "অ্যান্টি ক্লোরিন"
+      ],
+      "question_en": "Should I use chlorine remover when adding tap water?",
+      "question_bn": "কলের পানি অ্যাকুরিয়ামে দেওয়ার সময় anti-chlorine ব্যবহার করব?",
+      "answer_en": "Yes. Treat replacement tap water with an aquarium water conditioner that specifically neutralizes chlorine and chloramine, following the product label and dosing for the volume being treated. Letting water stand may allow free chlorine to dissipate but does not reliably remove chloramine. Match replacement water temperature as closely as practical. Do not add untreated tap water directly to a stocked aquarium.",
+      "answer_bn": "হ্যাঁ। কলের পানি যোগ করার আগে aquarium water conditioner ব্যবহার করুন, যা chlorine ও chloramine neutralize করে—পণ্যের নির্দেশনা এবং যে পরিমাণ পানির চিকিৎসা করছেন সেই অনুযায়ী ডোজ দিন। পানি রেখে দিলে free chlorine কিছুটা কমতে পারে, কিন্তু chloramine নির্ভরযোগ্যভাবে দূর হয় না। নতুন পানির তাপমাত্রা ট্যাংকের পানির কাছাকাছি রাখুন। মাছ থাকা ট্যাংকে অপরিশোধিত কলের পানি সরাসরি দেবেন না।",
+      "source_urls": [
+        "https://www.aqueon.com/products/water-care/water-conditioners",
+        "https://www.aqueon.com/articles/diagnosing-and-fixing-aquarium-water-issues"
+      ]
+    },
+    {
+      "id": "ammonia_spike",
+      "category": "water_quality",
+      "title_en": "Ammonia spike response",
+      "title_bn": "পানিতে ammonia বেড়ে গেলে করণীয়",
+      "keywords": [
+        "ammonia spike",
+        "toxic ammonia",
+        "fish gasping",
+        "অ্যামোনিয়া"
+      ],
+      "question_en": "What should I do if aquarium ammonia is high?",
+      "question_bn": "অ্যাকুরিয়ামের পানিতে ammonia বেশি হলে কী করব?",
+      "answer_en": "Treat any detectable ammonia as a warning. Test ammonia, nitrite and pH; reduce or pause feeding briefly, remove uneaten food and dead material, check that the filter is running, and make a partial water change with conditioned, temperature-matched water. Increase aeration if fish are distressed. A conditioner marketed to temporarily detoxify ammonia may help only as directed and does not replace biofiltration or water changes. Do not replace all filter media. Seek expert help if fish are gasping or dying.",
+      "answer_bn": "ammonia শনাক্ত হলে সতর্ক সংকেত হিসেবে ধরুন। ammonia, nitrite ও pH পরীক্ষা করুন; অল্প সময়ের জন্য খাবার কমান বা বন্ধ রাখুন, বেঁচে থাকা খাবার ও মৃত জৈব পদার্থ সরান, ফিল্টার চলছে কি না দেখুন এবং conditioner দেওয়া, তাপমাত্রা মেলানো পানি দিয়ে আংশিক water change করুন। মাছ কষ্ট পেলে aeration বাড়ান। ammonia সাময়িকভাবে detoxify করার দাবি করা conditioner কেবল নির্দেশনা অনুযায়ী ব্যবহার করুন; এটি biofiltration বা water change-এর বিকল্প নয়। সব filter media বদলাবেন না। মাছ হাঁসফাঁস করলে বা মারা গেলে বিশেষজ্ঞের সাহায্য নিন।",
+      "source_urls": [
+        "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/management-of-aquarium-fish",
+        "https://www.aqueon.com/articles/diagnosing-and-fixing-aquarium-water-issues"
+      ]
+    },
+    {
+      "id": "cloudy_water",
+      "category": "water_problems",
+      "title_en": "Cloudy aquarium water",
+      "title_bn": "অ্যাকুরিয়ামের পানি ঘোলা হলে",
+      "keywords": [
+        "cloudy water",
+        "milky water",
+        "bacterial bloom",
+        "ঘোলা পানি",
+        "সাদা পানি"
+      ],
+      "question_en": "Why is aquarium water cloudy and how can I fix it?",
+      "question_bn": "অ্যাকুরিয়ামের পানি ঘোলা কেন হয় এবং কীভাবে ঠিক করব?",
+      "answer_en": "Cloudiness can come from unsettled substrate, a bacterial bloom in a new or disturbed tank, overfeeding, waste, or filtration problems. Test ammonia and nitrite first, inspect the filter and avoid overfeeding. If water quality is poor, perform an appropriate partial water change with conditioned water. Do not routinely add algaecide or random chemicals; many bacterial blooms clear with stable filtration and sensible stocking. If fish gasp, act urgently by increasing aeration and checking water parameters.",
+      "answer_bn": "সাবস্ট্রেটের ধুলো, নতুন বা নাড়াচাড়া করা ট্যাংকে bacterial bloom, অতিরিক্ত খাবার, বর্জ্য বা ফিল্টারের সমস্যায় পানি ঘোলা হতে পারে। আগে ammonia ও nitrite পরীক্ষা করুন, ফিল্টার দেখুন এবং অতিরিক্ত খাবার দেবেন না। পানির মান খারাপ হলে conditioner দেওয়া পানি দিয়ে উপযুক্ত আংশিক water change করুন। নিয়ম করে algaecide বা অজানা রাসায়নিক দেবেন না; স্থিতিশীল filtration ও সঠিক stocking-এ অনেক bacterial bloom নিজে থেকেই কমে। মাছ হাঁসফাঁস করলে দ্রুত aeration বাড়িয়ে পানির মান পরীক্ষা করুন।",
+      "source_urls": [
+        "https://www.aqueon.com/articles/maintain-planted-aquarium",
+        "https://www.aqueon.com/articles/diagnosing-and-fixing-aquarium-water-issues"
+      ]
+    },
+    {
+      "id": "green_water",
+      "category": "water_problems",
+      "title_en": "Green aquarium water",
+      "title_bn": "অ্যাকুরিয়ামের পানি সবুজ হলে",
+      "keywords": [
+        "green water",
+        "free floating algae",
+        "সবুজ পানি",
+        "algae bloom"
+      ],
+      "question_en": "How do I treat green aquarium water?",
+      "question_bn": "অ্যাকুরিয়ামের পানি অতিরিক্ত সবুজ হয়ে গেলে কী করব?",
+      "answer_en": "Green water is commonly caused by free-floating algae, often encouraged by excessive light, direct sun, excess nutrients or an ammonia spike. Reduce or block direct sunlight, shorten or dim lighting, test ammonia and nitrite, avoid overfeeding and review fertilizer dosing. A UV sterilizer can clear suspended algae in suitable systems. A blackout may work but can stress plants and should not be the first step if the cause is unresolved. Avoid blindly dosing algaecides, especially in tanks with sensitive fish, shrimp or plants.",
+      "answer_bn": "পানিতে ভাসমান শৈবালের কারণে পানি সবুজ হয়; অতিরিক্ত আলো, সরাসরি সূর্য, বেশি পুষ্টি বা ammonia spike এতে ভূমিকা রাখতে পারে। সরাসরি সূর্যের আলো বন্ধ করুন, লাইটের সময় বা তীব্রতা কমান, ammonia ও nitrite পরীক্ষা করুন, অতিরিক্ত খাবার বন্ধ করুন এবং fertilizer-এর ডোজ পর্যালোচনা করুন। উপযুক্ত ট্যাংকে UV sterilizer ভাসমান শৈবাল কমাতে পারে। blackout কাজে লাগতে পারে, তবে গাছের ওপর চাপ ফেলতে পারে; মূল কারণ না ঠিক করে এটিকে প্রথম সমাধান ভাববেন না। সংবেদনশীল মাছ, চিংড়ি বা গাছ থাকা ট্যাংকে না বুঝে algaecide দেবেন না।",
+      "source_urls": [
+        "https://www.aquariumcoop.com/blogs/faqs/green-water",
+        "https://www.aqueon.com/articles/maintain-planted-aquarium"
+      ]
+    },
+    {
+      "id": "algae_general",
+      "category": "water_problems",
+      "title_en": "Algae control",
+      "title_bn": "শৈবাল নিয়ন্ত্রণ",
+      "keywords": [
+        "algae",
+        "black beard algae",
+        "hair algae",
+        "green spot algae",
+        "শৈবাল"
+      ],
+      "question_en": "How can I prevent algae in a planted aquarium?",
+      "question_bn": "প্ল্যান্টেড অ্যাকুরিয়ামে শৈবাল কীভাবে নিয়ন্ত্রণ করব?",
+      "answer_en": "Keep light duration and intensity appropriate, avoid direct sun, maintain consistent plant growth, do not overfeed, remove decaying leaves and perform regular water changes. Check filtration and nutrient dosing rather than assuming all algae means too much fertilizer. Identify the algae type because green water, hair algae, diatoms and black beard algae may need different approaches. Add algae-eating animals only if their adult needs and compatibility suit the tank.",
+      "answer_bn": "লাইটের সময় ও তীব্রতা উপযুক্ত রাখুন, সরাসরি সূর্যের আলো এড়ান, গাছের বৃদ্ধি স্থিতিশীল রাখুন, অতিরিক্ত খাবার দেবেন না, পচা পাতা সরান এবং নিয়মিত water change করুন। সব শৈবালকে অতিরিক্ত সারজনিত ধরে না নিয়ে filtration ও nutrient dosing পরীক্ষা করুন। শৈবালের ধরন চিহ্নিত করুন, কারণ green water, hair algae, diatoms ও black beard algae-র সমাধান এক নয়। মাছ বা শামুক দিয়ে শৈবাল খাওয়াতে চাইলে তাদের পূর্ণবয়স্ক চাহিদা ও সামঞ্জস্য আগে যাচাই করুন।",
+      "source_urls": [
+        "https://www.aqueon.com/articles/maintain-planted-aquarium",
+        "https://www.aquariumcoop.com/blogs/faqs/green-water"
+      ]
+    },
+    {
+      "id": "ich_white_spot",
+      "category": "fish_diseases",
+      "title_en": "Ich / white spot disease",
+      "title_bn": "Ich বা সাদা দাগ রোগ",
+      "keywords": [
+        "ich",
+        "white spot",
+        "white dots",
+        "সাদা দাগ",
+        "মাছের রোগ"
+      ],
+      "question_en": "What are the signs of ich and what should I do?",
+      "question_bn": "মাছের Ich বা সাদা দাগ রোগ কীভাবে বুঝব এবং কী করব?",
+      "answer_en": "Ich often appears as multiple small white spots like grains of salt on skin or fins; fish may scratch against objects, clamp fins or breathe rapidly. Other problems can resemble it, and gill-only infection may show no visible spots. Check water quality and seek a fish-health professional or use a reputable aquarium medicine specifically labelled for the species and system. Follow the full label schedule because the parasite's life cycle affects treatment timing. Do not combine medicines or use copper in a tank with invertebrates unless the product and expert guidance confirm safety.",
+      "answer_bn": "Ich রোগে মাছের গা বা পাখনায় লবণের দানার মতো অনেক ছোট সাদা দাগ দেখা যেতে পারে; মাছ জিনিসে গা ঘষতে পারে, পাখনা গুটিয়ে রাখতে পারে বা দ্রুত শ্বাস নিতে পারে। অন্য সমস্যাতেও মিল থাকা লক্ষণ দেখা যায়, আর শুধু ফুলকায় সংক্রমণ হলে দাগ নাও দেখা যেতে পারে। পানির মান পরীক্ষা করুন এবং fish-health বিশেষজ্ঞের পরামর্শ নিন অথবা ওই প্রজাতি ও ট্যাংকের জন্য লেবেলযুক্ত নির্ভরযোগ্য aquarium medicine ব্যবহার করুন। পরজীবীর জীবনচক্রের কারণে পুরো treatment schedule মানা জরুরি। একাধিক ওষুধ মেশাবেন না; অমেরুদণ্ডী প্রাণী থাকা ট্যাংকে পণ্যের নির্দেশনা ও বিশেষজ্ঞের নিশ্চিতকরণ ছাড়া copper ব্যবহার করবেন না।",
+      "source_urls": [
+        "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/parasitic-diseases-of-fish",
+        "https://www.merckvetmanual.com/all-other-pets/fish/disorders-and-diseases-of-fish?query=Fish"
+      ]
+    },
+    {
+      "id": "fin_rot",
+      "category": "fish_diseases",
+      "title_en": "Fin rot and damaged fins",
+      "title_bn": "ফিন রট ও পাখনা নষ্ট হওয়া",
+      "keywords": [
+        "fin rot",
+        "frayed fins",
+        "fin damage",
+        "পাখনা পচা"
+      ],
+      "question_en": "How do I recognize fin rot?",
+      "question_bn": "ফিন রট কীভাবে চিনব?",
+      "answer_en": "Fin edges may look ragged, shortened, discolored or progressively eroded. Nipping, injury, poor water quality and infection can look similar or occur together. Test ammonia and nitrite, improve water quality and reduce aggression or sharp decorations. Do not automatically use antibiotics: a correct diagnosis matters, and antimicrobial use should follow appropriate expert advice and product directions. Seek help if tissue loss progresses, ulcers appear or the fish stops eating.",
+      "answer_bn": "ফিন রট হলে পাখনার কিনারা ছেঁড়া, ছোট হয়ে যাওয়া, রং বদলানো বা ধীরে ধীরে ক্ষয়ে যাওয়া দেখা যেতে পারে। অন্য মাছের কামড়, আঘাত, খারাপ পানির মান ও সংক্রমণের লক্ষণ একরকম হতে পারে বা একসঙ্গে ঘটতে পারে। ammonia ও nitrite পরীক্ষা করুন, পানির মান ঠিক করুন এবং আক্রমণাত্মক মাছ বা ধারালো সাজসজ্জার সমস্যা কমান। নিশ্চিত কারণ না জেনে antibiotic দেবেন না; সঠিক রোগ নির্ণয় জরুরি এবং বিশেষজ্ঞের পরামর্শ ও পণ্যের নির্দেশনা মানতে হবে। পাখনা দ্রুত নষ্ট হলে, ঘা হলে বা মাছ খাওয়া বন্ধ করলে সাহায্য নিন।",
+      "source_urls": [
+        "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/bacterial-diseases-of-fish",
+        "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/management-of-aquarium-fish"
+      ]
+    },
+    {
+      "id": "velvet",
+      "category": "fish_diseases",
+      "title_en": "Velvet disease",
+      "title_bn": "Velvet রোগ",
+      "keywords": [
+        "velvet disease",
+        "gold dust",
+        "yellow dust",
+        "ভেলভেট"
+      ],
+      "question_en": "What does velvet disease look like?",
+      "question_bn": "Velvet রোগ দেখতে কেমন?",
+      "answer_en": "Velvet may cause a fine yellow-gold or rust-colored dust/film on the fish, rapid breathing, scratching, lethargy and loss of appetite. The dots can be much finer than ich spots and may be difficult to see. It can progress quickly, especially when gills are affected. Check water quality, reduce stress and seek prompt fish-health advice for a species-appropriate treatment. Do not diagnose solely from color or mix medications.",
+      "answer_bn": "Velvet রোগে মাছের গায়ে সূক্ষ্ম হলুদ-সোনালি বা মরিচারঙা ধুলোর মতো আবরণ দেখা যেতে পারে; দ্রুত শ্বাস, গা ঘষা, দুর্বলতা ও খাবারে অনীহাও হতে পারে। দাগ Ich-এর দাগের চেয়ে অনেক সূক্ষ্ম হতে পারে এবং দেখা কঠিন। ফুলকায় সংক্রমণ হলে রোগ দ্রুত খারাপ হতে পারে। পানির মান পরীক্ষা করুন, চাপ কমান এবং মাছের প্রজাতি অনুযায়ী দ্রুত বিশেষজ্ঞের পরামর্শ নিন। শুধু রং দেখে রোগ নিশ্চিত করবেন না এবং ওষুধ মেশাবেন না।",
+      "source_urls": [
+        "https://www.merckvetmanual.com/all-other-pets/fish/disorders-and-diseases-of-fish?query=Fish"
+      ]
+    },
+    {
+      "id": "fungal_growth",
+      "category": "fish_diseases",
+      "title_en": "Cotton-like fungal growth",
+      "title_bn": "তুলার মতো ছত্রাকের আবরণ",
+      "keywords": [
+        "fungus",
+        "cotton growth",
+        "white fluffy patch",
+        "ছত্রাক",
+        "তুলার মতো"
+      ],
+      "question_en": "What does a fungal infection on a fish look like?",
+      "question_bn": "মাছের ছত্রাকের সংক্রমণ দেখতে কেমন?",
+      "answer_en": "A cotton-like white or gray growth on skin, fins, eggs or wounds can be consistent with Saprolegnia, but other conditions can look similar. Correct water quality, remove decaying material and reduce injury or stress. Use only a treatment labelled for the fish and aquarium type, following the instructions; salt and medication tolerance varies by species and tank inhabitants. Rapid spread, deep ulcers or breathing difficulty requires expert help.",
+      "answer_bn": "মাছের গা, পাখনা, ডিম বা ক্ষতস্থানে সাদা/ধূসর তুলার মতো আবরণ Saprolegnia-র সঙ্গে মিলতে পারে, তবে অন্য সমস্যাও এমন দেখাতে পারে। পানির মান ঠিক করুন, পচা জৈব পদার্থ সরান এবং আঘাত বা চাপ কমান। মাছ ও ট্যাংকের ধরন অনুযায়ী লেবেলযুক্ত চিকিৎসাই নির্দেশনা মেনে ব্যবহার করুন; লবণ ও ওষুধ সহ্য করার ক্ষমতা প্রজাতিভেদে আলাদা। দ্রুত ছড়ালে, গভীর ঘা হলে বা শ্বাসকষ্ট হলে বিশেষজ্ঞের সাহায্য নিন।",
+      "source_urls": [
+        "https://www.merckvetmanual.com/all-other-pets/fish/disorders-and-diseases-of-fish?query=Fish"
+      ]
+    },
+    {
+      "id": "fish_gasping",
+      "category": "emergency",
+      "title_en": "Fish gasping at the surface",
+      "title_bn": "মাছ পানির ওপরে হাঁসফাঁস করলে",
+      "keywords": [
+        "gasping",
+        "surface breathing",
+        "low oxygen",
+        "fish emergency",
+        "মাছ হাঁসফাঁস"
+      ],
+      "question_en": "What should I do if fish are gasping at the surface?",
+      "question_bn": "মাছ পানির ওপরে উঠে হাঁসফাঁস করলে কী করব?",
+      "answer_en": "Treat this as urgent. Increase surface agitation and aeration immediately, check that the filter and heater work, and test temperature, ammonia and nitrite. Consider low oxygen, high temperature, ammonia/nitrite toxicity, gill disease or contaminants. If water tests indicate a problem, perform a suitable partial water change using conditioned, temperature-matched water. Do not add random medicines before addressing oxygen and water quality.",
+      "answer_bn": "এটিকে জরুরি সমস্যা হিসেবে ধরুন। সঙ্গে সঙ্গে পানির উপরিভাগে নড়াচড়া ও aeration বাড়ান, ফিল্টার ও heater কাজ করছে কি না দেখুন এবং তাপমাত্রা, ammonia ও nitrite পরীক্ষা করুন। অক্সিজেন কম, তাপমাত্রা বেশি, ammonia/nitrite বিষক্রিয়া, ফুলকার রোগ বা দূষণ—বিভিন্ন কারণ হতে পারে। পানির পরীক্ষায় সমস্যা দেখা গেলে conditioner দেওয়া ও তাপমাত্রা মেলানো পানি দিয়ে উপযুক্ত আংশিক water change করুন। অক্সিজেন ও পানির মান ঠিক করার আগে না বুঝে ওষুধ দেবেন না।",
+      "source_urls": [
+        "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/management-of-aquarium-fish",
+        "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/parasitic-diseases-of-fish"
+      ]
+    },
+    {
+      "id": "quarantine",
+      "category": "prevention",
+      "title_en": "Quarantine new fish",
+      "title_bn": "নতুন মাছ quarantine করা",
+      "keywords": [
+        "quarantine",
+        "new fish",
+        "biosecurity",
+        "কোয়ারেন্টাইন"
+      ],
+      "question_en": "Why and how should I quarantine new fish?",
+      "question_bn": "নতুন মাছ quarantine করা কেন দরকার এবং কীভাবে করব?",
+      "answer_en": "Quarantine helps observe new fish for disease before they enter the main aquarium. Use a separate tank with a suitable filter, heater if needed, aeration and separate nets/equipment. Observe for several weeks when practical, monitor appetite, breathing, skin and feces, and test water. Do not share wet equipment between tanks without cleaning and disinfection. Quarantine reduces risk but cannot detect every disease.",
+      "answer_bn": "নতুন মাছকে মূল ট্যাংকে দেওয়ার আগে রোগের লক্ষণ পর্যবেক্ষণ করতে quarantine সাহায্য করে। আলাদা ট্যাংক, উপযুক্ত ফিল্টার, প্রয়োজনমতো heater, aeration এবং আলাদা জাল/সরঞ্জাম ব্যবহার করুন। সম্ভব হলে কয়েক সপ্তাহ পর্যবেক্ষণ করুন; খাবার খাওয়া, শ্বাস, গা ও মল দেখুন এবং পানি পরীক্ষা করুন। পরিষ্কার ও disinfect না করে ভেজা সরঞ্জাম এক ট্যাংক থেকে অন্য ট্যাংকে ব্যবহার করবেন না। Quarantine ঝুঁকি কমায়, তবে সব রোগ শনাক্ত করতে পারে না।",
+      "source_urls": [
+        "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/management-of-aquarium-fish",
+        "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/routine-health-care-of-fish"
+      ]
+    },
+    {
+      "id": "water_change",
+      "category": "maintenance",
+      "title_en": "Routine water changes",
+      "title_bn": "নিয়মিত পানি পরিবর্তন",
+      "keywords": [
+        "water change",
+        "maintenance",
+        "weekly",
+        "পানি পরিবর্তন"
+      ],
+      "question_en": "How often should I change aquarium water?",
+      "question_bn": "কতদিন পরপর অ্যাকুরিয়ামের পানি পরিবর্তন করব?",
+      "answer_en": "A common starting routine is about 10–25% weekly or every two weeks, but the right amount and frequency depend on stocking, feeding, plants, nitrate and water tests. Use conditioned replacement water with a similar temperature. Remove debris while siphoning and avoid replacing all water unless there is a specific emergency requiring it. Test water and adjust the schedule based on results.",
+      "answer_bn": "শুরুতে প্রতি সপ্তাহে প্রায় ১০–২৫% অথবা দুই সপ্তাহে একবার পানি পরিবর্তন করা যেতে পারে; তবে সঠিক পরিমাণ ও সময় নির্ভর করে মাছের সংখ্যা, খাবার, গাছ, nitrate ও পানির পরীক্ষার ফলের ওপর। নতুন পানিতে conditioner দিন এবং তাপমাত্রা কাছাকাছি রাখুন। siphon করার সময় ময়লা সরান; বিশেষ জরুরি কারণ না থাকলে একবারে সব পানি বদলাবেন না। পানির পরীক্ষা দেখে সময়সূচি ঠিক করুন।",
+      "source_urls": [
+        "https://www.aqueon.com/articles/dos-donts",
+        "https://www.aqueon.com/articles/maintain-planted-aquarium"
+      ]
+    },
+    {
+      "id": "filter_care",
+      "category": "maintenance",
+      "title_en": "Filter maintenance",
+      "title_bn": "ফিল্টারের যত্ন",
+      "keywords": [
+        "filter cleaning",
+        "biological media",
+        "ফিল্টার পরিষ্কার"
+      ],
+      "question_en": "How should I clean an aquarium filter?",
+      "question_bn": "অ্যাকুরিয়ামের ফিল্টার কীভাবে পরিষ্কার করব?",
+      "answer_en": "Rinse clogged mechanical media gently in removed aquarium water or appropriately conditioned water to preserve beneficial bacteria. Do not sterilize biological media or replace all filter media at once. Keep the filter running and ensure adequate flow and oxygen. Follow the filter maker's instructions and clean only as needed; over-cleaning can disrupt biological filtration.",
+      "answer_bn": "যে mechanical media আটকে গেছে, তা ট্যাংক থেকে নেওয়া পানি বা যথাযথভাবে conditioner দেওয়া পানিতে আলতো করে ধুয়ে উপকারী ব্যাকটেরিয়া বাঁচিয়ে রাখুন। biological media জীবাণুমুক্ত করবেন না এবং একসঙ্গে সব filter media বদলাবেন না। ফিল্টার চালু রাখুন এবং পানির প্রবাহ ও অক্সিজেন যথেষ্ট আছে কি না নিশ্চিত করুন। ফিল্টার প্রস্তুতকারকের নির্দেশনা মানুন এবং প্রয়োজন অনুযায়ী পরিষ্কার করুন; অতিরিক্ত পরিষ্কারে biological filtration নষ্ট হতে পারে।",
+      "source_urls": [
+        "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/management-of-aquarium-fish",
+        "https://www.aqueon.com/ultimate-fishkeeping-guide"
+      ]
+    },
+    {
+      "id": "medication_safety",
+      "category": "safety",
+      "title_en": "Safe use of aquarium chemicals and medicines",
+      "title_bn": "অ্যাকুরিয়ামের কেমিক্যাল ও ওষুধের নিরাপদ ব্যবহার",
+      "keywords": [
+        "chemical safety",
+        "medication",
+        "copper",
+        "salt",
+        "mixing medicines",
+        "কেমিক্যাল",
+        "ওষুধ"
+      ],
+      "question_en": "Can I mix aquarium medicines or add chemicals just in case?",
+      "question_bn": "সতর্কতার জন্য একাধিক aquarium medicine বা কেমিক্যাল একসঙ্গে দিতে পারি?",
+      "answer_en": "No. Do not mix medicines or dose chemicals without a clear reason. Read the full label, calculate actual water volume, check species and invertebrate safety, remove chemical filtration only if the product label says to, and maintain aeration. Copper can be dangerous to many invertebrates; salt is not suitable for every plant or fish. Never mix household cleaning products with aquarium water. For severe illness, uncertain diagnosis or mass deaths, seek an aquatic veterinarian or qualified fish-health professional.",
+      "answer_bn": "না। স্পষ্ট কারণ ছাড়া একাধিক ওষুধ বা কেমিক্যাল একসঙ্গে দেবেন না। পুরো লেবেল পড়ুন, প্রকৃত পানির পরিমাণ হিসাব করুন, মাছের প্রজাতি ও অমেরুদণ্ডী প্রাণীর নিরাপত্তা যাচাই করুন, পণ্যের নির্দেশনা থাকলেই কেবল chemical filtration সরান এবং aeration বজায় রাখুন। Copper অনেক অমেরুদণ্ডী প্রাণীর জন্য বিপজ্জনক; লবণ সব গাছ বা মাছের জন্য উপযুক্ত নয়। ঘর পরিষ্কারের রাসায়নিক কখনো অ্যাকুরিয়ামের পানিতে মেশাবেন না। গুরুতর অসুস্থতা, অনিশ্চিত রোগ নির্ণয় বা একসঙ্গে অনেক মাছ মারা গেলে aquatic veterinarian বা যোগ্য fish-health বিশেষজ্ঞের সাহায্য নিন।",
+      "source_urls": [
+        "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/management-of-aquarium-fish",
+        "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/parasitic-diseases-of-fish"
+      ]
+    },
+    {
+      "id": "feeding",
+      "category": "fish_care",
+      "title_en": "Feeding aquarium fish",
+      "title_bn": "অ্যাকুরিয়ামের মাছকে খাবার দেওয়া",
+      "keywords": [
+        "feeding",
+        "overfeeding",
+        "fish food",
+        "মাছের খাবার"
+      ],
+      "question_en": "How much should I feed aquarium fish?",
+      "question_bn": "অ্যাকুরিয়ামের মাছকে কতটুকু খাবার দেব?",
+      "answer_en": "Feed a species-appropriate diet in small portions that fish can consume quickly, commonly within about 1–2 minutes, adjusting for the species and food type. Remove uneaten food. Overfeeding increases waste and can raise ammonia and algae risk. Some species need plant matter, algae, frozen/live foods or specific diets; research each species rather than using one food for all fish.",
+      "answer_bn": "মাছের প্রজাতি অনুযায়ী খাবার অল্প অল্প করে দিন, যাতে সাধারণত প্রায় ১–২ মিনিটের মধ্যে খেয়ে ফেলে; প্রজাতি ও খাবারের ধরন অনুযায়ী পরিমাণ বদলান। বেঁচে থাকা খাবার সরিয়ে ফেলুন। অতিরিক্ত খাবারে বর্জ্য বাড়ে এবং ammonia ও শৈবালের ঝুঁকি বাড়তে পারে। কিছু মাছের উদ্ভিজ্জ খাবার, algae, frozen/live food বা বিশেষ diet লাগে; সব মাছকে একই খাবার দেওয়ার আগে প্রজাতির চাহিদা জানুন।",
+      "source_urls": [
+        "https://www.aqueon.com/ultimate-fishkeeping-guide",
+        "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/routine-health-care-of-fish"
+      ]
+    },
+    {
+      "id": "tank_volume",
+      "category": "calculations",
+      "title_en": "Calculate aquarium volume",
+      "title_bn": "অ্যাকুরিয়ামের পানির পরিমাণ হিসাব",
+      "keywords": [
+        "tank volume",
+        "liters calculation",
+        "gallons",
+        "ট্যাংকের লিটার"
+      ],
+      "question_en": "How do I calculate my aquarium volume?",
+      "question_bn": "আমার অ্যাকুরিয়ামে কত লিটার পানি ধরে তা কীভাবে হিসাব করব?",
+      "answer_en": "For a rectangular tank, gross volume in litres = length(cm) × width(cm) × water height(cm) ÷ 1000. Actual water volume is lower because of substrate, decorations and space above the water. For medicine dosing, estimate the actual water volume carefully and follow the product label. Never guess medication doses.",
+      "answer_bn": "আয়তাকার ট্যাংকের মোট ধারণক্ষমতা (লিটার) = দৈর্ঘ্য (সেমি) × প্রস্থ (সেমি) × পানির উচ্চতা (সেমি) ÷ ১০০০। সাবস্ট্রেট, সাজসজ্জা ও পানির ওপরের ফাঁকা অংশের কারণে প্রকৃত পানির পরিমাণ কম হয়। ওষুধের ডোজ হিসাবের সময় প্রকৃত পানির পরিমাণ সতর্কভাবে নির্ধারণ করুন এবং পণ্যের নির্দেশনা মানুন। ওষুধের ডোজ আন্দাজে দেবেন না।",
+      "source_urls": [
+        "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/management-of-aquarium-fish"
+      ]
+    },
+    {
+      "id": "oxygen",
+      "category": "water_quality",
+      "title_en": "Oxygen and aeration",
+      "title_bn": "পানিতে অক্সিজেন ও aeration",
+      "keywords": [
+        "oxygen",
+        "aeration",
+        "surface agitation",
+        "অক্সিজেন"
+      ],
+      "question_en": "Does every aquarium need an air pump?",
+      "question_bn": "সব অ্যাকুরিয়ামে কি air pump দরকার?",
+      "answer_en": "Not every aquarium needs a separate air pump if the filter provides sufficient surface movement and oxygen exchange. Aeration is especially useful in warm water, crowded tanks, during illness, and when medicines or algae treatments may reduce oxygen. Ensure the filter outlet ripples the surface and watch fish behavior. Gasping at the surface is an urgent warning, not a normal sign.",
+      "answer_bn": "ফিল্টার যদি পানির উপরিভাগ যথেষ্ট নাড়ায় ও অক্সিজেনের আদান-প্রদান নিশ্চিত করে, তবে সব ট্যাংকে আলাদা air pump বাধ্যতামূলক নয়। গরম পানি, বেশি মাছ, অসুস্থতা এবং কিছু ওষুধ বা algae treatment ব্যবহারের সময় aeration বিশেষভাবে কাজে লাগে। ফিল্টারের পানি যেন উপরিভাগে ঢেউ তৈরি করে এবং মাছের আচরণ লক্ষ্য করুন। মাছ পানির ওপরে হাঁসফাঁস করলে সেটি জরুরি সতর্ক সংকেত।",
+      "source_urls": [
+        "https://www.aqueon.com/ultimate-fishkeeping-guide",
+        "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/management-of-aquarium-fish"
+      ]
+    },
+    {
+      "id": "answer_policy",
+      "category": "ai_instructions",
+      "title_en": "Bilingual response and safety rules",
+      "title_bn": "AI-এর দ্বিভাষিক উত্তর ও নিরাপত্তার নিয়ম",
+      "keywords": [
+        "AI instructions",
+        "bilingual",
+        "Bangla English",
+        "বাংলা ইংরেজি উত্তর"
+      ],
+      "question_en": "How should the aquarium AI answer users?",
+      "question_bn": "অ্যাকুরিয়াম AI কীভাবে উত্তর দেবে?",
+      "answer_en": "Answer in the language the user asks in. If the user requests both languages, provide Bangla first and English second, with the same meaning. Use simple language and organize answers as: likely cause, visible signs, checks/tests, safe immediate steps, treatment options, prevention, and when to seek expert help. Ask for fish/plant species, tank size, freshwater or saltwater, temperature and test results when these change the advice. Never claim a visual symptom proves a disease. Never invent medicine doses or recommend mixing chemicals. State uncertainty clearly and prioritize animal welfare.",
+      "answer_bn": "ব্যবহারকারী যে ভাষায় প্রশ্ন করেন, সেই ভাষায় উত্তর দিন। দুই ভাষা চাইলে আগে বাংলা, পরে একই অর্থে English উত্তর দিন। সহজ ভাষায় উত্তর সাজান: সম্ভাব্য কারণ, দৃশ্যমান লক্ষণ, কী পরীক্ষা করতে হবে, নিরাপদ তাৎক্ষণিক পদক্ষেপ, চিকিৎসার বিকল্প, প্রতিরোধ এবং কখন বিশেষজ্ঞের সাহায্য নিতে হবে। পরামর্শ বদলে যেতে পারে এমন ক্ষেত্রে মাছ/গাছের প্রজাতি, ট্যাংকের আকার, freshwater না saltwater, তাপমাত্রা ও test result জানতে চান। শুধু ছবি বা লক্ষণ দেখে রোগ নিশ্চিত বলে দাবি করবেন না। ওষুধের ডোজ বানিয়ে বলবেন না এবং কেমিক্যাল মেশানোর পরামর্শ দেবেন না। অনিশ্চয়তা স্পষ্ট করুন এবং প্রাণীর নিরাপত্তাকে অগ্রাধিকার দিন।",
+      "source_urls": [
+        "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/management-of-aquarium-fish",
+        "https://www.merckvetmanual.com/exotic-and-laboratory-animals/aquarium-fish/routine-health-care-of-fish"
+      ]
+    }
+  ]
+}
